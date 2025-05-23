@@ -60,9 +60,9 @@ We're actively scouting:
 
 This org will include:
 
-- `infectosnap-app`: React Native mobile client
+- `infectosnap-mobile`: React Native mobile client
 - `infectosnap-model`: AI/ML model training + TFLite conversion
-- `infectosnap-backend`: API server, auth, image storage
+- `infectosnap-core-backend-service`: API server, auth, image storage
 - `infectosnap-dashboard`: Clinic web portal (coming soon)
 
 ---
