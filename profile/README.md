@@ -1,86 +1,39 @@
-# 🦠 InfectoSnap: AI-Powered Infection Scanner
+# InfectoSnap
 
-**Empowering Nigerians with early, AI-driven diagnosis of visible infections – starting from the smartphone.**
+**Snap. Detect. Protect.**
 
----
+InfectoSnap is a clinician-supervised clinical workflow platform for healthcare facilities in Nigeria. It helps clinical teams document, review and follow up visible skin and superficial soft-tissue presentations.
 
-## 🌍 Mission
+## What we're building
 
-InfectoSnap is a healthtech initiative from Nigeria, building a mobile-first platform to detect common infections using AI. Our goal is to reduce misdiagnoses, improve early treatment, and support health equity across underserved communities.
+A secure, multi-tenant web platform for outpatient clinics and dermatology-relevant facilities:
 
----
+- **Structured case capture**: patient registration, encounters, symptoms and clinician findings.
+- **Standardized clinical photography**: contextual and close-up images, technical image-quality checks and secure private storage.
+- **Independent clinical review**: a second clinician reviews the original images and context without overwriting the treating clinician's record.
+- **Investigations, referrals and follow-up**: longitudinal tracking through to outcome and case closure.
+- **Works on intermittent connectivity**: offline drafts that sync safely, and never merge conflicting clinical edits silently.
+- **Audit and governance**: consent per purpose, signed records that can't be edited after signing, and append-only audit history.
 
-## 🚀 What We're Building
+## What InfectoSnap is not
 
-A cross-platform mobile app (Android/iOS) that lets users:
+InfectoSnap supports documentation and care coordination. It does **not** provide automated diagnosis, disease probabilities, triage, treatment recommendations or patient-facing diagnostic output. Clinicians remain responsible for assessment, diagnosis and treatment.
 
-- 📸 Snap a photo of a visible infection
-- 🤖 Get an AI-powered diagnosis + treatment tips
-- 📍 Find nearby clinics or pharmacies
-- ⚠️ Receive alerts for severe conditions
+AI is used only to help clinicians structure and summarize their own notes, always with clinician review, and the workflow keeps working without it. Any diagnostic AI is limited to separately governed, ethics-approved research and is not part of the clinical product.
 
-Built for offline-first use in remote areas.
+## Status
 
----
+We are preparing a controlled pilot with partner facilities in Nigeria.
 
-## 🧠 Core Technologies
+## Work with us
 
-- **Mobile App**: React Native (Expo)
-- **AI Models**: TensorFlow + TensorFlow Lite (on-device inference)
-- **Backend**: Node.js + MongoDB
-- **Cloud Services**: Firebase / GCP / AWS
-- **Mapping**: Google Places API / OpenStreetMap
+We're interested in hearing from:
 
----
+- Clinics and facilities interested in piloting
+- Clinicians, particularly in dermatology and infectious disease
+- Health-data privacy and regulatory advisors
+- Engineers and designers with healthcare experience
 
-## 🎯 Key Use Cases
+Contact: `infectosnap.team@gmail.com`
 
-- Ringworm, scabies, boils, ulcers
-- Diabetic foot infections
-- Conjunctivitis and eye conditions
-- Fungal infections like candidiasis
-
----
-
-## 💼 Who Should Join?
-
-We're actively scouting:
-
-- 🧑‍💻 React Native Developers
-- 🤖 ML/AI Engineers (TensorFlow)
-- 🔬 Microbiologists (Infection taxonomy)
-- 🎨 UI/UX Designers (accessible-first)
-- 🤝 NGO & Public Health Partners
-- 🌐 Community Ambassadors (for pilot states)
-- ⚖️ Legal/Compliance Advisors (Health data + AI)
-
----
-
-## 🛠 Repositories
-
-This org will include:
-
-- `infectosnap-mobile`: React Native mobile client
-- `infectosnap-model`: AI/ML model training + TFLite conversion
-- `infectosnap-core-backend-service`: API server, auth, image storage
-- `infectosnap-dashboard`: Clinic web portal (coming soon)
-
----
-
-## 💡 Contributing
-
-We welcome contributions and collaborations! Please [open an issue](https://github.com/YOUR-ORG/infectosnap-app/issues) or email `infectosnap.team@gmail.com` to get involved.
-
----
-
-## ⚖️ License
-
-[MIT License](LICENSE)
-
----
-
-## 📢 Follow & Support
-
-This is more than just an app—it's a health movement. Join us on our journey to bring infection detection to every corner of Nigeria.
-
-🇳🇬 Built with ❤️ from Nigeria for the world.
+🇳🇬 Built in Nigeria.
